@@ -33,5 +33,3 @@ pipeline:
             type: Docker
             spec: {}
         type: CI
-        delegateSelectors:
-          - helm-delegate
