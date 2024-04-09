@@ -33,3 +33,5 @@ pipeline:
             type: Docker
             spec: {}
         type: CI
+        delegateSelectors:
+          - macos-arm64
